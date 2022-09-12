@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.AssemblyInfo.cs
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\TP 2 Complejidad\bin\Debug\net6.0\TP 2 Complejidad.exe
+C:\Users\Usuario\Documents\TP 2 Complejidad\bin\Debug\net6.0\TP 2 Complejidad.deps.json
+C:\Users\Usuario\Documents\TP 2 Complejidad\bin\Debug\net6.0\TP 2 Complejidad.runtimeconfig.json
+C:\Users\Usuario\Documents\TP 2 Complejidad\bin\Debug\net6.0\TP 2 Complejidad.dll
+C:\Users\Usuario\Documents\TP 2 Complejidad\bin\Debug\net6.0\TP 2 Complejidad.pdb
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.dll
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\refint\TP 2 Complejidad.dll
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.pdb
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\TP 2 Complejidad.genruntimeconfig.cache
+C:\Users\Usuario\Documents\TP 2 Complejidad\obj\Debug\net6.0\ref\TP 2 Complejidad.dll
