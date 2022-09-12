@@ -34,7 +34,18 @@ namespace tp2
 		}
 	
 		public int altura() {
-			return 0;
+			int cont = 0;
+			if (esHoja()){
+				return 0;
+			}
+			else
+				cont++;
+			for (int i = 0; i < this.getHijos().Count; i++)
+			{
+				int subCont = this.getHijos()[i].altura();
+				cont += subCont;
+			}
+			return cont;
 		}
 	
 		
