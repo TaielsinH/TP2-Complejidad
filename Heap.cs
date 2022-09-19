@@ -12,15 +12,76 @@ namespace tp2
         {
             dato = lista;
             this.tipoHeap = tipoHeap;
-           
+            filtradoAbajo();
         }
+        public int[] getDato
+        {get{return dato;}}
         private void filtradoAbajo()
         {
-            for (int i = 0; i< this.dato.Length -1; i++)
+            if(!this.tipoHeap){
+                for (int i = 1; i< this.dato.Length /2; i++)
+                {
+                    if (this.dato[i] > this.dato[2*i])
+                    {
+                        int swap = this.dato[i];
+                        this.dato[i] = this.dato[2*1];
+                        this.dato[2*1] = swap;
+                    }
+                    if (this.dato[i] > this.dato[(2*i)+1])
+                    {
+                        int swap = this.dato[i];
+                        this.dato[i] = this.dato[(2*i)+1];
+                        this.dato[(2*i)+1] = swap;
+                    }
+                }
+            }
+            if(tipoHeap)
             {
-                if (this.dato[i] > this.dato[2*i]);
+                for (int i = 0; i<this.dato.Length /2; i++)
+                {
+                    if (this.dato[i]<this.dato[2*i])
+                    {
+                        int swap = this.dato[i];
+                        this.dato[i] = this.dato[2*1];
+                        this.dato[2*1] = swap;
+                    }
+                    if (this.dato[i] < this.dato[2*i])
+                    {
+                        int swap = this.dato[i];
+                        this.dato[i] = this.dato[2*1];
+                        this.dato[2*1] = swap;
+                    }
+                }
             }
         }
+       private void filtradoArriba()
+        {
+            int n = dato.Length;
+            if(!this.tipoHeap){
+                for (int i = n; i< 1 /2; i--)
+                {
+                    if (this.dato[i] < this.dato[i/2])
+                    {
+                        int swap = this.dato[i];
+                        this.dato[i] = this.dato[i/2];
+                        this.dato[i/2] = swap;
+                    }
+                }
+            }
+            if(tipoHeap)
+            {
+                for (int i = n; i>1; i--)
+                {
+                    if (this.dato[i]>this.dato[i/2])
+                    {
+                        int swap = this.dato[i];
+                        this.dato[i] = this.dato[i/2];
+                        this.dato[i/2] = swap;
+                    }
+                }
+            }
+        }    
+
         
     }
 }
